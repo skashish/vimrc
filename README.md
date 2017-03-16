@@ -2,6 +2,6 @@
 
 This is my vimrc file.
 
-# install
+# Install
 
 `git clone https://github.com/skashish/vimrc.git`
