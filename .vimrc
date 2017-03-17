@@ -40,4 +40,13 @@ colorscheme molokai
 :nmap <c-s> :w<CR>
 :imap <c-s> <Esc>:w<CR>a
 
+" To execute a python script from within vim on pressing F9 key
+nnoremap <buffer> <F9> :exec '!python' shellescape(@%, 1)<cr>
+
+
+
+" Show line numbers and set width to 4
+set nuw=4
+
+
 
