@@ -33,7 +33,7 @@ colorscheme github "molokai
 " The first line says: pressing Ctrl-S within a document will perform a :w <enter> keyboard combination.
 " The second line says: pressing Ctrl-S within a document while in 'insert' mode will escape to normal mode, perform a :w <enter, then press a to get back into insert mode. Your cursor may move during this event.
 " You may notice that pressing Ctrl-S performs an 'XOFF' which stops commands from being received (If you are using ssh).
-" To fix that, place these two commands in your ~/.bash_profile
+" To fix that, place these two commands in your ~/.bashrc
 " bind -r '\C-s'
 " stty -ixon
 
