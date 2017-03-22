@@ -16,7 +16,7 @@ set expandtab
 
 
 
-colorscheme molokai
+colorscheme github "molokai
 
 
 
@@ -45,8 +45,8 @@ nnoremap <buffer> <F9> :exec '!python' shellescape(@%, 1)<cr>
 
 
 
-" Show line numbers and set width to 4
-set nuw=4
+" Show line numbers
+set nu
 
 
 
